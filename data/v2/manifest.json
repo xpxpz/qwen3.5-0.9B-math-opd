@@ -1,0 +1,25 @@
+{
+  "seed": 20261109,
+  "gsm8k_revision": "740312add88f781978c0658806c59bc2815b9866",
+  "math500_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+  "sampling": "test excludes prior 100 IDs",
+  "dedup": "normalized exact only; near duplicate not verified",
+  "files": {
+    "train.jsonl": {
+      "n": 500,
+      "sha256": "be0cbfe3ec5c45f2b0e81110254625d8f62259e8b066e5f07652bc68c895e1b2"
+    },
+    "val.jsonl": {
+      "n": 100,
+      "sha256": "b270f5f1f84cb01bf3a0d6a36cab427e28eaa7c7b82ab0f5841ee88baba938c1"
+    },
+    "gsm8k_test.jsonl": {
+      "n": 200,
+      "sha256": "6bfe2c58ebba748e9e2fd13484595aed7dacae12cf7357fc43704e93c1484cfb"
+    },
+    "math500_test.jsonl": {
+      "n": 200,
+      "sha256": "b26fe86185000372ef66a881552aa37068fabab192bd2c445864a5629eb12fec"
+    }
+  }
+}
